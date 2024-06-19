@@ -1,0 +1,70 @@
+// Customer Registration
+{
+  "email": "cs22btech11051@iith.ac.in",
+  "phone": "6309818915",
+  "name": "Armaan",
+  "photoURL": "RandomURL"
+}
+
+// Driver Registration
+{
+  "email": "driver@gmail.com",
+  "password": "random_password",
+  "photoURL": "driver_photo_URL",
+  "name": "Ramu",
+  "phone": "1234567890",
+  "car_no": "TS1234",
+  "car_model": "Inova Cresta White"
+}
+
+// Customer Login
+{
+  "email": "cs22btech11051@iith.ac.in"
+}
+{
+  "token": ""
+}
+
+// Driver Login
+{
+  "email": "driver@gmail.com",
+  "password": "random_password"
+}
+
+// // // // // // // 
+// CUSTOMER //
+// Applying for a Pool Ride
+{
+  "email": "cs22btech11051@iith.ac.in",
+  "timeslot": 11,
+  "zone": "RGAI",
+  "numpeople": 4,
+  "min": 2,
+  "max": 4,
+  "time": "11:30 AM",
+  "date": "11-05-2024",
+  "start": "IIT Hyderabad",
+  "destination": "Near RGAI, 2 Blocks Away"
+}
+
+// Getting the Data of your Ride along with the People in the Ride
+{
+  "email": "cs22btech11051@iith.ac.in"
+}
+
+// DRIVER //
+// Viewing all the Rides
+Its a get request
+// Accepting a Ride
+{
+  "pool_id": "",
+  "driver_email": "driver@gmail.com"
+}
+// Getting all details of Pool after accepting the Ride
+{
+  "pool_id": ""
+}
+// Getting all details of the Customer after accepting the Ride
+{
+  "email": ""
+}
